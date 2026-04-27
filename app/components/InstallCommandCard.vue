@@ -13,16 +13,18 @@
           </div>
         </div>
 
-        <div class="relative flex items-start justify-between overflow-x-auto px-5 py-5 font-mono text-sm sm:items-center sm:text-base">
-          <div class="flex items-center whitespace-nowrap text-gray-300">
-            <span class="mr-3 font-bold text-primary">&gt;</span>
-            <span>{{ installCommand }}</span>
+        <div class="relative px-5 py-5 font-mono text-sm sm:text-base">
+          <div class="overflow-x-auto pr-16 sm:pr-20">
+            <div class="flex min-w-max items-center whitespace-nowrap text-gray-300">
+              <span class="mr-3 font-bold text-primary">&gt;</span>
+              <span>{{ installCommand }}</span>
+            </div>
           </div>
 
           <button
             type="button"
             @click="copyInstallCmd"
-            class="ml-4 flex-shrink-0 rounded-md border border-white/10 bg-white/5 p-2 text-gray-400 transition-colors hover:bg-white/10 hover:text-white focus:outline-hidden focus:ring-2 focus:ring-primary/50"
+            class="absolute right-5 top-1/2 flex-shrink-0 -translate-y-1/2 rounded-md border border-white/10 bg-zinc-950 p-2 text-gray-400 shadow-lg shadow-black/20 transition-colors hover:bg-zinc-900 hover:text-white focus:outline-hidden focus:ring-2 focus:ring-primary/50 cursor-pointer"
             title="Copiar comando"
             aria-label="Copiar comando de instalação"
           >
