@@ -9,5 +9,12 @@ export default defineNuxtConfig({
     plugins: [
       tailwindcss()
     ]
+  },
+  app: {
+    baseURL: '/jellycc/',
+  },
+  ssr: true, 
+  nitro: {
+    preset: 'github-pages'
   }
 })
