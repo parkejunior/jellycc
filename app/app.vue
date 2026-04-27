@@ -1,6 +1,6 @@
 <template>
   <div class="min-h-screen flex flex-col scroll-smooth">
-    <main class="grow flex w-full max-w-[1200px] flex-col items-center px-6 pt-24 pb-16">
+    <main class="grow flex w-full max-w-[1200px] flex-col items-center px-6 pt-24 pb-16 flex justify-center">
       <header class="mb-16 flex w-full max-w-3xl flex-col items-center text-center">
         <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-6">
           <span class="gradient-text">JellyCC</span> CLI
