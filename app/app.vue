@@ -4,7 +4,7 @@
       <LandingHero />
       <InstallCommandCard />
 
-      <div class="flex items-center justify-center gap-4">
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto">
         <ActionLink href="https://github.com/parkejunior/jellycc-cli">
           <font-awesome-icon icon="fa-brands fa-github" /> Github
         </ActionLink>
