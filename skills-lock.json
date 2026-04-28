@@ -4,21 +4,25 @@
     "create-agentsmd": {
       "source": "github/awesome-copilot",
       "sourceType": "github",
+      "skillPath": "skills/create-agentsmd/SKILL.md",
       "computedHash": "bfbdbb76b17cca970d1d624e36ce72b6847860d740581c8865da796c1fef8552"
     },
     "nuxt": {
       "source": "onmax/nuxt-skills",
       "sourceType": "github",
+      "skillPath": "skills/nuxt/SKILL.md",
       "computedHash": "571d9ea31a6f18b94168894814f20df361773e16de4a6dc675b526aaf6d55a45"
     },
     "tailwind-patterns": {
       "source": "sickn33/antigravity-awesome-skills",
       "sourceType": "github",
+      "skillPath": "skills/tailwind-patterns/SKILL.md",
       "computedHash": "54ea413749acbfadc152864d73e16e6cf5d13f8c88c7fbf8f84693988789c30a"
     },
     "vue": {
       "source": "onmax/nuxt-skills",
       "sourceType": "github",
+      "skillPath": "skills/vue/SKILL.md",
       "computedHash": "cb120821c275a351b6e3c154d82cf62a9277b6260c2c30b3101f688928a3428b"
     }
   }
