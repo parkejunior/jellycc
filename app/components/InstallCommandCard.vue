@@ -1,5 +1,5 @@
 <template>
-  <section class="group mb-24 w-full max-w-3xl">
+  <section class="group w-full max-w-3xl">
     <div class="rounded-[16px] bg-linear-to-r from-primary/70 via-white/10 to-primary/30 p-px shadow-[0_0_40px_rgba(121,40,202,0.15)] transition-shadow duration-500 group-hover:shadow-[0_0_60px_rgba(255,0,128,0.25)]">
       <div class="overflow-hidden rounded-[15px] bg-surface">
         <div class="flex items-center border-b border-white/5 px-4 py-3">
